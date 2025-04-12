@@ -7,7 +7,6 @@ interface IAccountPageProps {
 
 const AccountPage: FC<IAccountPageProps> = async ({ params }) => {
   const { id } = await params;
-
   console.log(id);
 
   return (
